@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Configuration status="WARN">
+
+<Properties>
+      <Property name="basePath">.\logs</Property>
+</Properties>  
+            
+            
+  <Appenders> <!-- Appender means where to create a logs -->
+    <Console name="Console" target="SYSTEM_OUT">
+    <PatternLayout pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"/>
+    </Console>
+    
+   <RollingFile name="File" fileName="${basePath}/automation.log" filePattern="${basePath}/automation-%d{yyyy-MM-dd}.log">
+   <PatternLayout pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36}-%msg%n"/> 
+   <SizeBasedTriggeringPolicy size="5000"/>
+   </RollingFile>
+   
+  </Appenders>
+  
+  <Loggers> <!-- Logger means what level logger have to create -->
+    <!-- - <Root level="debug">--> <!-- level of loggers=All-Trace-debug-Info-warn-Error-Fatal-Off -->
+    <!-- <AppenderRef ref="CONSOLE" level="WARN"/>-->
+    <Root level="debug"> <!-- only from "Info" level log we tester can use  -->
+    <AppenderRef ref="File"/>
+    </Root>
+  </Loggers>
+  
+</Configuration>

@@ -1,0 +1,24 @@
+13:54:02.426 [main] DEBUG org.apache.hc.client5.http.wire-http-outgoing-0 << "[0xffffffbb][0xffffff98][0x10]Z[0xffffffd4][0xffffffbc][0xffffffc6][0xffffffd9]`[0xffffffc9]7>[0x9][0x1c]yf[0xffffffe7][0xf]N[0xffffffd3][0xffffffba][0xffffff92][0xfffffff0][0x15]>^%-[0xffffff95]'[0xffffffea]S[0xb]:[0xffffffb4][0xffffffa7][0x15]5[0xffffff96]Sk)=]l[0xffffff85]T[0xfffffffe][0xffffffd4][0xffffff95][0xfffffff4]T[0xffffff9b]-[0xffffffce]$[0xffffffaa]t;[0xffffffac][0xffffffa4]'/([0xffffffdf][0x12][0xffffff92]-%[0xfffffffe]7[0xffffffdf][0xffffffae]/[0xfffffff0][0xffffffd4]in[0xffffff87][0xffffffe3][0xf]u[0xfffffff3][0xffffff94][0x7][0xffffff9c][0xffffffea]i[0x5][0xffffffe0]<[0xffffffba][0xffffffb0]#%[0xffffffaf][0xffffffae][0xffffffa8])[0xffffffe9][0x5]Q/[0xffffffc0][0xc]Y[0xffffffc8]#[0xffffffdb][0xfffffff0]L,[0xffffff8b][0xffffff83]G[0xffffffd0][0xffffffa2][0xffffffd0][0xffffffd1]N*[0xfffffff0]?l[0x1d]d@[0xffffffbe][0x15][0x0][0x0]"
+13:54:02.435 [main] DEBUG org.apache.hc.client5.http.impl.classic.InternalHttpClient-ep-0000000001 releasing valid endpoint
+13:54:02.435 [main] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager-ep-0000000001 releasing endpoint
+13:54:02.435 [main] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager-ep-0000000001 connection http-outgoing-0 can be kept alive for 3 MINUTES
+13:54:02.437 [main] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager-ep-0000000001 connection released [route: {s}->https://raw.githubusercontent.com:443][total available: 1; route allocated: 1 of 5; total allocated: 1 of 25]
+13:54:02.439 [main] DEBUG io.github.bonigarcia.wdm.versions.VersionDetector-Detecting chrome version using online commands.properties
+13:54:02.450 [main] DEBUG io.github.bonigarcia.wdm.versions.Shell-Running command on the shell: [cmd.exe, /C, wmic, datafile, where, name="%PROGRAMFILES:\=\\%\\Google\\Chrome\\Application\\chrome.exe", get, Version, /value]
+13:54:02.774 [main] DEBUG io.github.bonigarcia.wdm.versions.Shell-Result: 
+13:54:02.775 [main] DEBUG io.github.bonigarcia.wdm.versions.Shell-Running command on the shell: [cmd.exe, /C, wmic, datafile, where, name="%PROGRAMFILES(X86):\=\\%\\Google\\Chrome\\Application\\chrome.exe", get, Version, /value]
+13:54:02.985 [main] DEBUG io.github.bonigarcia.wdm.versions.Shell-Result: Version=142.0.7444.176
+13:54:02.992 [main] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache-Resolution chrome142=142.0.7444.175 in cache (valid until 12:42:30 27/11/2025 IST)
+13:54:02.992 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager-Using chromedriver 142.0.7444.175 (resolved driver for Chrome 142)
+13:54:02.997 [main] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache-Storing resolution chrome=142 in cache (valid until 14:54:02 26/11/2025 IST)
+13:54:03.027 [main] DEBUG io.github.bonigarcia.wdm.WebDriverManager-Driver chromedriver 142.0.7444.175 found in cache
+13:54:03.029 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager-Exporting webdriver.chrome.driver as C:\Users\zaxd3\.cache\selenium\chromedriver\win64\142.0.7444.175\chromedriver.exe
+13:54:12.074 [main] INFO  testCases.BaseClass-****Starting TC001_AccountRegistrationTest****
+13:54:22.977 [main] INFO  testCases.BaseClass-Browser launched
+13:54:22.980 [main] DEBUG io.github.bonigarcia.wdm.WebDriverManager-Using WebDriverManager 5.9.2
+13:54:23.012 [main] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache-Resolution chrome=142 in cache (valid until 14:54:02 26/11/2025 IST)
+13:54:23.014 [main] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache-Resolution chrome142=142.0.7444.175 in cache (valid until 12:42:30 27/11/2025 IST)
+13:54:23.014 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager-Using chromedriver 142.0.7444.175 (resolved driver for Chrome 142)
+13:54:23.039 [main] DEBUG io.github.bonigarcia.wdm.WebDriverManager-Driver chromedriver 142.0.7444.175 found in cache
+13:54:23.042 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager-Exporting webdriver.chrome.driver as C:\Users\zaxd3\.cache\selenium\chromedriver\win64\142.0.7444.175\chromedriver.exe
+13:54:31.190 [main] INFO  testCases.BaseClass-*****Starting TC002_LoginTest*****
